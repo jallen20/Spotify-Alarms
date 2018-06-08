@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="10dp"
+    android:theme="?attr/actionBarStyle"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alarms"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:paddingTop="3dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
